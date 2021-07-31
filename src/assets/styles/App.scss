@@ -1,14 +1,15 @@
 @import './Vars.scss';
 @import './Media.scss';
-
-body {
-  margin: 0;
-  background: $main-color;
-  font-family: $theme-font;
-}
   
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient($color-up, $color_down);
+  font-family: $theme-font;
 }
 
 ::-webkit-scrollbar {
