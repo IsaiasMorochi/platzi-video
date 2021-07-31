@@ -12,7 +12,7 @@ import useInitialState from '../hooks/useInitialState';
 
 const API = 'http://localhost:3000/initalState';
 
-const App = () => {
+const Home = () => {
   const initialState = useInitialState(API);
 
     return initialState.length === 0 ? <h1>Loading...</h1> : (
@@ -57,4 +57,4 @@ const App = () => {
     );
 }
 
-export default App;
+export default Home;
