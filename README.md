@@ -14,3 +14,9 @@ json-server initalState.json
 
 Navegador
 host: http://localhost:3000/initalState
+
+Iniciar el proyecto
+
+```bash
+npm run start
+```
